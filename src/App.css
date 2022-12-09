@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+body{
+  background-image: url( "https://img.freepik.com/free-photo/flat-lay-yellow-luggage-with-copy-space_23-2148786124.jpg?w=2000&t=st=1670604935~exp=1670605535~hmac=cf24c399289c0a2a953a10deae46516765ff0531113f109a5996f63990a454cd");
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-color: #e2e2e0;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.travel, .container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.crossed{
+  text-decoration: line-through 2px red;
+}
+.app{
+background-color: #f7f7f5;
+min-height: 90vh;
+width: 400px;
+margin: 20px auto;
+border-radius: 10%;
+}
+ul,li{
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  color: #0162a9 ;
+}
+input{
+  font-family: 'Poppins', sans-serif;
+ 
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  width: 60%;
+}
+.delete{
+  padding: 10px;
+border: none;
+width: 66%;
+color: white;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+background-color: #c34121;
+}
+.add{
+  padding: 10px;
+  margin-top: 15px;
+border: none;
+width: 66%;
+color: white;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+background-color: #f2be01;
 }
